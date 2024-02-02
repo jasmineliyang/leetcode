@@ -22,13 +22,13 @@
 
 // option 1
 
-var  isPalindrome = function(x){
-    let newStr = String(x);
-    if (newStr === newStr.split('').reverse().join.('')){
-        return true
-    }else{ return false}
+// var  isPalindrome = function(x){
+//     let newStr = String(x);
+//     if (newStr === newStr.split('').reverse().join('')){
+//         return true
+//     }else { return false} 
 
-}
+// }
 // option 2 
 
 var isPalindrome = function (x) {
@@ -44,3 +44,4 @@ var isPalindrome = function (x) {
     }
     return true
 }
+console.log(isPalindrome(121));
